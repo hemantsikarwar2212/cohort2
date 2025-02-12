@@ -63,3 +63,12 @@ function sum( a , b) {
 }
 sum21 = (a,b)=>{return a+b}
 console.log(sum(6,7));
+// callbacks :
+ function result(a) {
+    console.log(a);
+}
+function sum1(a,b,result) {
+    let value = a+b;
+     result(value);
+}
+sum1(2,3,result)
