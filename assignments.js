@@ -17,4 +17,12 @@ function isPalindrome(str) {
   }
 
   console.log(isPalindrome("maf"));
-  
+  ///clockk //
+  function clock(){
+  let date = new Date();
+    let seconds = date.getSeconds();
+    let min = date.getMinutes();
+    let hours = date.getHours(); 
+    console.log(`time is : ${hours}:${min}:${seconds} `);
+  } 
+  setInterval( clock,1000)
