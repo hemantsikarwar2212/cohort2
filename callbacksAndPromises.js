@@ -18,3 +18,17 @@ return n*n*n*n;
 let result = sumOfSomething(2,2,square);
 console.log(result);
 
+///////async functions//////////
+const fs= require('fs');
+
+function onDone(){
+console.log("done functioning");
+}
+function onDone2(){
+console.log("done functioning2");
+}
+console.log("hi there");
+setTimeout(onDone2,1000);
+fs.readFile('a.txt',onDone);
+console.log("after sometime");
+
