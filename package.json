@@ -1,0 +1,15 @@
+{
+  "name": "cohort2",
+  "version": "1.0.0",
+  "description": "this is starting to a cohort2 by harkirat",
+  "main": "JSON.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
